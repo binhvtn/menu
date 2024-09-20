@@ -1,0 +1,90 @@
+/*
+  Designed by: Assad Ullah Chaudhry
+  Created by: Assad Ullah Chaudhry
+  Description: I used HTML5 and CSS3. There's no JavaScript. If you want to go paid professional training of web designing and web development
+               feel free to contact me.
+  Skype: learnprogramming.
+*/
+*{
+  padding:0;
+  margin:0;
+  font-family:arial;
+}
+#header{
+  height:600px;
+  background-color:#E6E6E6;
+  position:relative;
+  padding-top:30px;
+}
+#clear{
+  clear:both;
+}
+#nav-wrapper{
+  background-color:#3E3E3E;
+  width:930px;
+  margin:0 auto;
+}
+#nav-wrapper #logo{
+  color:white;
+  background-color:#CC5252;
+  cursor: pointer;
+  padding-left:20px;
+  padding-right:40px;
+}
+#logo h2{
+  line-height: 2.2;
+  padding-bottom:7px;
+}
+#nav-wrapper ul{
+  list-style:none;
+  
+}
+#nav-wrapper ul li{
+  position: relative;
+  float:left;
+}
+#nav-wrapper ul li a{
+  text-decoration: none;
+  color:white;
+  width:120px;
+  height:30px;
+  display: block;
+  text-align: center;
+  line-height: 3.5;
+  padding-bottom:30px;
+ 
+}
+#nav-wrapper ul ul{
+  position: absolute;
+  background-color:	#5F5F5F;
+  display:none;
+}
+#nav-wrapper ul li:hover ul{
+  display: block;
+}
+#nav-wrapper ul li:hover{
+  background-color:#CC5252;
+}
+#nav-wrapper ul ul li a{
+  width:160px;
+  text-align:left;
+  padding-left:10px;
+  height:10px;
+  line-height: 2.3;
+  display:block;
+}
+#nav-wrapper ul ul ul{
+  position: absolute;
+  left:170px;
+  top:0px;
+  visibility: hidden;
+}
+#nav-wrapper ul ul li:hover ul{
+  visibility: visible;
+} 
+#info{
+	text-align:center;
+	padding-top:250px;
+	font-weight:bold;
+	font-size:29px;
+}
